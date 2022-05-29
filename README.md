@@ -54,17 +54,6 @@ It will look like this.  It does not have to be visible to work but it does have
 ![alt text](https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/InGameHotbar.png?raw=true)
 
 
-**Testing**
-If you would like to test if the triggers work before you go into the fight you will need to make a macro with the following text make sure the line ends with a line break `|`
-
-**You will need an 8 man party in the same instance for the test to work. Don't have a space between these in your macro**
-
-````
-/e Titan|2B6C|Rock Throw|88888888|<1>|
-/e Titan|2B6C|Rock Throw|88888888|<4>|
-/e Titan|2B6C|Rock Throw|88888888|<6>|
-````
-
 **Editing**
 
 If you wish to Edit the Keybindings from F1-F9 you will need to go into Mark1-3 as well as Wipe Reset. Change keycode for each trigger (25 in total, 8 in each Mark1-3 and one in Wipe reset) to the desired keybinding. Reference https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=net-5.0 for Keycodes.
